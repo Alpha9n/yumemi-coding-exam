@@ -17,8 +17,9 @@
     "react-router-dom": "^6.24.1"
   },
   "engines": {
-    "pnpm": "9.3.0",
-    "npm": "please_use_pnpm_instead"
+    "node": ">=18",
+    "pnpm": ">=9",
+    "preinstall": "npx only-allow pnpm"
   },
   "packageManager": "pnpm@9.3.0",
   "devDependencies": {
