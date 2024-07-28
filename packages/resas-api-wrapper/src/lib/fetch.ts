@@ -20,7 +20,7 @@ function getRequestOptions(apiKey: string): RequestInit {
 const defaultBaseUrl = 'https://opendata.resas-portal.go.jp/api/v1/';
 
 /**
- * RESAS APIの都道府県一覧を取得するための関数
+ * RESAS APIの都道府県一覧を取得するための関数  
  * reference: https://opendata.resas-portal.go.jp/docs/api/v1/prefectures.html
  * @param apiKey 
  * @param baseUrl 
@@ -35,7 +35,7 @@ export async function getPrefectures(apiKey: string, baseUrl: string = defaultBa
 }
 
 /**
- * RESAS APIの人口構成を取得するための関数
+ * RESAS APIの人口構成を取得するための関数  
  * reference: https://opendata.resas-portal.go.jp/docs/api/v1/population/composition/perYear.html
  * @param apiKey 
  * @param prefCode 
