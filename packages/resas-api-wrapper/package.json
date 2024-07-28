@@ -1,6 +1,6 @@
 {
   "name": "resas-api-wrapper",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "地域経済分析システム(RESAS: リーサス)のデータを型付きで取得するためのパッケージです。",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
