@@ -14,7 +14,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.25.1"
+    "react-router-dom": "^6.25.1",
+    "resas-api-wrapper": "link:packages/resas-api-wrapper"
   },
   "engines": {
     "node": ">=18",
@@ -34,7 +35,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.9",
     "lint-staged": "^15.2.7",
-    "population-trend-ui": "workspace:*",
+    "population-trend-ui": "link:packages/population-trend-ui",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
     "vite": "^5.3.5"
